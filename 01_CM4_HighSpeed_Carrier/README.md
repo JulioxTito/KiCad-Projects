@@ -1,11 +1,21 @@
 # Raspberry Pi CM4 High-Speed Carrier Board
 
 <p align="center">
-  <img src="images/cm4_3d_render.png" alt="CM4 Carrier 3D Raytrace" width="48%">
+  <img src="images/cm4_3d_render.png" alt="CM4 Carrier 3D Raytrace Hero" width="48%">
   <img src="images/cm4_pcb_layout.jpg" alt="CM4 KiCad PCB Layout" width="48%">
 </p>
 <p align="center">
-  <em>Figure 1: (Left) High-resolution raytraced 3D render showing M.2 NVMe SSD, RJ45, HDMI, and dual Hirose DF40 connectors. (Right) KiCad PCB Editor layout showing component clusters and high-speed routing.</em>
+  <em>Figure 1: (Left) High-resolution raytraced 3D render showing M.2 NVMe SSD, RJ45 MagJack, HDMI, and dual Hirose DF40 connectors. (Right) KiCad PCB Editor layout showing component clusters and high-speed routing.</em>
+</p>
+
+### 📸 Multi-Angle 3D Hardware Perspectives
+
+<p align="center">
+  <img src="images/cm4_3d_iso_back.png" alt="CM4 Rear Isometric View" width="48%">
+  <img src="images/cm4_3d_profile.png" alt="CM4 Low-Angle Profile View" width="48%">
+</p>
+<p align="center">
+  <em>Figure 2: (Left) Rear isometric perspective showing HDMI port, dual USB ports, and real-time clock. (Right) Low-angle perspective profile highlighting connector stack heights and clearance.</em>
 </p>
 
 <p align="center">
@@ -13,8 +23,10 @@
   <img src="images/cm4_3d_bottom.png" alt="CM4 Bottom View" width="48%">
 </p>
 <p align="center">
-  <em>Figure 2: Orthogonal Top and Bottom views showing symmetrical port layout and bottom copper ground planes.</em>
+  <em>Figure 3: (Left) Orthogonal top assembly layout. (Right) Bottom ground plane flood and power plane distributions.</em>
 </p>
+
+---
 
 ## 📌 Project Summary
 A custom 4-layer carrier board designed for the **Raspberry Pi Compute Module 4 (CM4)**. Engineered for high-speed edge computing, this board integrates a high-performance M.2 NVMe SSD over PCIe Gen 2, Gigabit Ethernet, 4K HDMI display output, dual USB 2.0 ports, a real-time clock (RTC), and a 40-pin GPIO expansion interface.

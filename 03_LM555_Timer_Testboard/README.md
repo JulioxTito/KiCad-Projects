@@ -8,11 +8,25 @@
   <em>Figure 1: (Left) Raytraced 3D model with balanced camera perspective and floor reflections. (Right) KiCad PCB Editor layout showing traces, pads, and component silkscreen.</em>
 </p>
 
+### 📸 Multi-Angle 3D Hardware Perspectives
+
 <p align="center">
-  <img src="images/lm555_3d_top.png" alt="LM555 Top View" width="55%">
-  <br>
-  <em>Figure 2: Orthogonal Top 3D view showing DIP-8 socket, timing passives, output buffer LED, and oscilloscope test points.</em>
+  <img src="images/lm555_3d_iso_back.png" alt="LM555 Rear Isometric View" width="48%">
+  <img src="images/lm555_3d_profile.png" alt="LM555 Low-Angle Profile View" width="48%">
 </p>
+<p align="center">
+  <em>Figure 2: (Left) Rear isometric angle showing timing potentiometer and output stage. (Right) Low-angle profile perspective.</em>
+</p>
+
+<p align="center">
+  <img src="images/lm555_3d_top.png" alt="LM555 Top View" width="48%">
+  <img src="images/lm555_3d_bottom.png" alt="LM555 Bottom View" width="48%">
+</p>
+<p align="center">
+  <em>Figure 3: (Left) Orthogonal Top 3D view showing DIP-8 socket, passives, and test loops. (Right) Bottom ground plane flood.</em>
+</p>
+
+---
 
 ## 📌 Project Summary
 A precision analog timing and waveform generation testboard built around the industry-standard **LM555 / NE555** bipolar timer IC. Designed as an educational and hardware validation platform, it allows hands-on characterization of astable multivibrators, frequency tuning, pulse-width modulation (PWM), and transient response.
