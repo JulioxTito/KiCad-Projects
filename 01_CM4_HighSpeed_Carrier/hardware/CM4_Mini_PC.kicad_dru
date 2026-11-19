@@ -1,0 +1,16 @@
+(version 1)
+(rule "Footprint locating pegs"
+  (condition "A.Pad_Type == 'NPTH, mechanical' && A.Parent == B.Parent")
+  (constraint hole_clearance (min 0.15mm)))
+(rule "ProtoFlow diff pair PCIE_TX_P / PCIE_TX_N"
+  (condition "A.NetName == 'PCIE_TX_P' && B.NetName == 'PCIE_TX_N'")
+  (constraint clearance (min 0.2mm)))
+(rule "ProtoFlow diff pair PCIE_RX_P / PCIE_RX_N"
+  (condition "A.NetName == 'PCIE_RX_P' && B.NetName == 'PCIE_RX_N'")
+  (constraint clearance (min 0.2mm)))
+(rule "ProtoFlow diff pair /CM4_HighSpeed_Video/DSI1_D3_P / /CM4_HighSpeed_Video/DSI1_D3_N"
+  (condition "A.NetName == '/CM4_HighSpeed_Video/DSI1_D3_P' && B.NetName == '/CM4_HighSpeed_Video/DSI1_D3_N'")
+  (constraint clearance (min 0.2mm)))
+(rule "ProtoFlow diff pair /CM4_Core_IO_Storage/TRD0_P / /CM4_Core_IO_Storage/TRD0_N"
+  (condition "A.NetName == '/CM4_Core_IO_Storage/TRD0_P' && B.NetName == '/CM4_Core_IO_Storage/TRD0_N'")
+  (constraint clearance (min 0.2mm)))

@@ -1,0 +1,973 @@
+{
+  "schemaVersion": 1,
+  "setupState": {
+    "layerPreset": "fourLayer",
+    "layers": [
+      {
+        "name": "F.Cu",
+        "visible": true,
+        "routingEnabled": true
+      },
+      {
+        "name": "In1.Cu",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "In2.Cu",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Cu",
+        "visible": true,
+        "routingEnabled": true
+      },
+      {
+        "name": "F.Adhes",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Adhes",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Paste",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Paste",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.SilkS",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.SilkS",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Mask",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Mask",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "Dwgs.User",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Cmts.User",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Eco1.User",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Eco2.User",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Edge.Cuts",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "Margin",
+        "visible": false,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.CrtYd",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.CrtYd",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Fab",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Fab",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "User.1",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "User.2",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "User.3",
+        "visible": true,
+        "routingEnabled": false
+      },
+      {
+        "name": "User.4",
+        "visible": true,
+        "routingEnabled": false
+      }
+    ],
+    "traceWidthPresets": [
+      {
+        "label": "0.10 mm",
+        "widthMm": 0.1
+      },
+      {
+        "label": "0.127 mm",
+        "widthMm": 0.127
+      },
+      {
+        "label": "0.15 mm",
+        "widthMm": 0.15
+      },
+      {
+        "label": "0.20 mm",
+        "widthMm": 0.2
+      },
+      {
+        "label": "0.25 mm",
+        "widthMm": 0.25
+      },
+      {
+        "label": "0.30 mm",
+        "widthMm": 0.3
+      },
+      {
+        "label": "0.40 mm",
+        "widthMm": 0.4
+      },
+      {
+        "label": "0.50 mm",
+        "widthMm": 0.5
+      },
+      {
+        "label": "0.80 mm",
+        "widthMm": 0.8
+      },
+      {
+        "label": "1.00 mm",
+        "widthMm": 1.0
+      }
+    ],
+    "viaPresets": [
+      {
+        "label": "0.45 / 0.20",
+        "diameterMm": 0.45,
+        "drillMm": 0.2
+      },
+      {
+        "label": "0.60 / 0.30",
+        "diameterMm": 0.6,
+        "drillMm": 0.3
+      },
+      {
+        "label": "0.80 / 0.40",
+        "diameterMm": 0.8,
+        "drillMm": 0.4
+      },
+      {
+        "label": "1.00 / 0.50",
+        "diameterMm": 1.0,
+        "drillMm": 0.5
+      }
+    ],
+    "activeLayerName": "F.Cu",
+    "activeTraceWidthMm": 0.25,
+    "activeViaPreset": {
+      "label": "0.60 / 0.30",
+      "diameterMm": 0.6,
+      "drillMm": 0.3
+    },
+    "defaultTextFontFace": "KiCad Font",
+    "snapToGrid": true,
+    "showGrid": true,
+    "gridSizeMm": 0.25,
+    "clearanceMm": 0.0,
+    "boardEdgeClearanceMm": 0.2
+  },
+  "stackup": {
+    "boardThicknessMm": 1.6,
+    "layers": [
+      {
+        "name": "F.SilkS",
+        "type": "Top Silk Screen",
+        "thicknessMm": 0.0,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Paste",
+        "type": "Top Solder Paste",
+        "thicknessMm": 0.0,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Mask",
+        "type": "Top Solder Mask",
+        "thicknessMm": 0.01,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "F.Cu",
+        "type": "copper",
+        "thicknessMm": 0.035,
+        "role": "signal",
+        "routingEnabled": true
+      },
+      {
+        "name": "dielectric 1",
+        "type": "prepreg",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false,
+        "epsilonR": 4.5,
+        "lossTangent": 0.02,
+        "material": "FR4"
+      },
+      {
+        "name": "In1.Cu",
+        "type": "copper",
+        "thicknessMm": 0.035,
+        "role": "groundPlane",
+        "routingEnabled": false
+      },
+      {
+        "name": "dielectric 2",
+        "type": "core",
+        "thicknessMm": 1.24,
+        "role": "mechanical",
+        "routingEnabled": false,
+        "epsilonR": 4.5,
+        "lossTangent": 0.02,
+        "material": "FR4"
+      },
+      {
+        "name": "In2.Cu",
+        "type": "copper",
+        "thicknessMm": 0.035,
+        "role": "powerPlane",
+        "routingEnabled": false
+      },
+      {
+        "name": "dielectric 3",
+        "type": "prepreg",
+        "thicknessMm": 0.1,
+        "role": "mechanical",
+        "routingEnabled": false,
+        "epsilonR": 4.5,
+        "lossTangent": 0.02,
+        "material": "FR4"
+      },
+      {
+        "name": "B.Cu",
+        "type": "copper",
+        "thicknessMm": 0.035,
+        "role": "signal",
+        "routingEnabled": true
+      },
+      {
+        "name": "B.Mask",
+        "type": "Bottom Solder Mask",
+        "thicknessMm": 0.01,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.Paste",
+        "type": "Bottom Solder Paste",
+        "thicknessMm": 0.0,
+        "role": "mechanical",
+        "routingEnabled": false
+      },
+      {
+        "name": "B.SilkS",
+        "type": "Bottom Silk Screen",
+        "thicknessMm": 0.0,
+        "role": "mechanical",
+        "routingEnabled": false
+      }
+    ]
+  },
+  "boardConstraints": {
+    "minTraceWidthMm": 0.09,
+    "minClearanceMm": 0.09,
+    "minViaDiameterMm": 0.25,
+    "minViaDrillMm": 0.15,
+    "minAnnularMm": 0.05,
+    "minHoleMm": 0.15,
+    "holeToHoleMm": 0.2,
+    "holeClearanceMm": 0.2,
+    "routingGroups": [],
+    "differentialPairs": [
+      {
+        "positiveNetName": "PCIE_TX_P",
+        "negativeNetName": "PCIE_TX_N",
+        "targetSpacingMm": 0.2
+      },
+      {
+        "positiveNetName": "PCIE_RX_P",
+        "negativeNetName": "PCIE_RX_N",
+        "targetSpacingMm": 0.2
+      },
+      {
+        "positiveNetName": "/CM4_HighSpeed_Video/DSI1_D3_P",
+        "negativeNetName": "/CM4_HighSpeed_Video/DSI1_D3_N",
+        "targetSpacingMm": 0.2
+      },
+      {
+        "positiveNetName": "/CM4_Core_IO_Storage/TRD0_P",
+        "negativeNetName": "/CM4_Core_IO_Storage/TRD0_N",
+        "targetSpacingMm": 0.2
+      }
+    ]
+  },
+  "autorouteSettings": {
+    "preset": "fourLayerWithPlanes",
+    "allowedLayers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "planeNetNames": [
+      "GND",
+      "3V3"
+    ],
+    "routeUnroutedOnly": true,
+    "preserveManualCopper": true,
+    "allowVias": true,
+    "aggressiveRipup": false,
+    "stitchGroundReturns": true,
+    "repairPlanes": true,
+    "gridStepMm": 0.5,
+    "maxPasses": 3
+  },
+  "netClasses": [
+    {
+      "name": "Default",
+      "description": "",
+      "clearanceMm": 0.15,
+      "traceWidthMm": 0.15,
+      "viaDiameterMm": 0.45,
+      "viaDrillMm": 0.25,
+      "netNames": [
+        "/CM4_Core_IO_Storage/AIN0",
+        "/CM4_Core_IO_Storage/AIN1",
+        "/CM4_Core_IO_Storage/BT_nDis",
+        "/CM4_Core_IO_Storage/EEPROM_nWP",
+        "/CM4_Core_IO_Storage/ETH_LEDG",
+        "/CM4_Core_IO_Storage/ETH_LEDY",
+        "/CM4_Core_IO_Storage/GPIO10",
+        "/CM4_Core_IO_Storage/GPIO11",
+        "/CM4_Core_IO_Storage/GPIO12",
+        "/CM4_Core_IO_Storage/GPIO13",
+        "/CM4_Core_IO_Storage/GPIO14",
+        "/CM4_Core_IO_Storage/GPIO15",
+        "/CM4_Core_IO_Storage/GPIO16",
+        "/CM4_Core_IO_Storage/GPIO17",
+        "/CM4_Core_IO_Storage/GPIO18",
+        "/CM4_Core_IO_Storage/GPIO19",
+        "/CM4_Core_IO_Storage/GPIO2",
+        "/CM4_Core_IO_Storage/GPIO20",
+        "/CM4_Core_IO_Storage/GPIO21",
+        "/CM4_Core_IO_Storage/GPIO22",
+        "/CM4_Core_IO_Storage/GPIO23",
+        "/CM4_Core_IO_Storage/GPIO24",
+        "/CM4_Core_IO_Storage/GPIO25",
+        "/CM4_Core_IO_Storage/GPIO26",
+        "/CM4_Core_IO_Storage/GPIO27",
+        "/CM4_Core_IO_Storage/GPIO3",
+        "/CM4_Core_IO_Storage/GPIO4",
+        "/CM4_Core_IO_Storage/GPIO5",
+        "/CM4_Core_IO_Storage/GPIO6",
+        "/CM4_Core_IO_Storage/GPIO7",
+        "/CM4_Core_IO_Storage/GPIO8",
+        "/CM4_Core_IO_Storage/GPIO9",
+        "/CM4_Core_IO_Storage/RUN_PG",
+        "/CM4_Core_IO_Storage/Reserved",
+        "/CM4_Core_IO_Storage/SD_CLK",
+        "/CM4_Core_IO_Storage/SD_CMD",
+        "/CM4_Core_IO_Storage/SD_DAT0",
+        "/CM4_Core_IO_Storage/SD_DAT1",
+        "/CM4_Core_IO_Storage/SD_DAT2",
+        "/CM4_Core_IO_Storage/SD_DAT3",
+        "/CM4_Core_IO_Storage/SD_PWR_ON",
+        "/CM4_Core_IO_Storage/SYNC_IN",
+        "/CM4_Core_IO_Storage/SYNC_OUT",
+        "/CM4_Core_IO_Storage/WL_nDis",
+        "/CM4_Core_IO_Storage/nPWR_LED",
+        "/CM4_Core_IO_Storage/nRPIBOOT",
+        "/CM4_HighSpeed_Video/HDMI0_CEC",
+        "/CM4_HighSpeed_Video/HDMI0_HOTPLUG",
+        "/CM4_HighSpeed_Video/HDMI0_SCL",
+        "/CM4_HighSpeed_Video/HDMI0_SDA",
+        "/CM4_HighSpeed_Video/HDMI1_CEC",
+        "/CM4_HighSpeed_Video/HDMI1_HOTPLUG",
+        "/CM4_HighSpeed_Video/HDMI1_SCL",
+        "/CM4_HighSpeed_Video/HDMI1_SDA",
+        "/CM4_HighSpeed_Video/SCL1",
+        "/CM4_HighSpeed_Video/SDA1",
+        "/Real_Time_Clock/nRTC_INT",
+        "/USB_Hub_Subsystem/PWR1",
+        "/USB_Hub_Subsystem/nOCS1",
+        "CAM_GPIO",
+        "GND",
+        "GPIO_VREF",
+        "ID_SC",
+        "ID_SD",
+        "Net-(BT1-+)",
+        "Net-(C1-Pad1)",
+        "Net-(C24-Pad1)",
+        "Net-(C57-Pad1)",
+        "Net-(C60-Pad1)",
+        "Net-(D1-K)",
+        "Net-(D2-K)",
+        "Net-(D4-A)",
+        "Net-(D5-A)",
+        "Net-(D5-K)",
+        "Net-(J17-Pin_3)",
+        "Net-(J17-Pin_4)",
+        "Net-(J2-Pin_13)",
+        "Net-(J7-DET_A)",
+        "Net-(J7-DET_B)",
+        "Net-(Module1A-PI_nLED_Activity)",
+        "Net-(Q1-D)",
+        "Net-(R10-Pad2)",
+        "Net-(U16-BST)",
+        "Net-(U16-COMP)",
+        "Net-(U16-FB)",
+        "Net-(U16-SS)",
+        "Net-(U16-SW)",
+        "Net-(U3-LEDG_K)",
+        "Net-(U3-LEDY_K)",
+        "Net-(U4-D1+)",
+        "Net-(U4-D1-)",
+        "Net-(U6-HS_IND{slash}CFG_SEL1)",
+        "Net-(U6-RBIAS)",
+        "Net-(U6-SCL{slash}SMBCLK{slash}CFG_SEL0)",
+        "Net-(U6-SDA{slash}SMBDATA{slash}NON_REM1)",
+        "Net-(U6-SUSP_IND{slash}LOCAL_PWR{slash}NON_REM0)",
+        "Net-(U6-XTALIN{slash}CLKIN)",
+        "Net-(U6-XTALOUT)",
+        "Net-(U7-ILIM)",
+        "Net-(U8-OSCI)",
+        "Net-(U8-OSCO)",
+        "Net-(U8-VDD)",
+        "PCIE_CLK_nREQ",
+        "PCIE_nRST",
+        "SCL",
+        "SCL0",
+        "SDA",
+        "SDA0",
+        "TV_OUT",
+        "USBOTG",
+        "USBOTG_ID",
+        "nEXTRST",
+        "unconnected-(J10-UTILITY{slash}HEAC+-Pad14)",
+        "unconnected-(J11-ID-Pad4)",
+        "unconnected-(J12-DEVSLP-Pad38)",
+        "unconnected-(J12-NC-Pad20)",
+        "unconnected-(J12-NC-Pad22)",
+        "unconnected-(J12-NC-Pad24)",
+        "unconnected-(J12-NC-Pad26)",
+        "unconnected-(J12-NC-Pad28)",
+        "unconnected-(J12-NC-Pad30)",
+        "unconnected-(J12-NC-Pad32)",
+        "unconnected-(J12-NC-Pad34)",
+        "unconnected-(J12-NC-Pad36)",
+        "unconnected-(J12-NC-Pad40)",
+        "unconnected-(J12-NC-Pad42)",
+        "unconnected-(J12-NC-Pad44)",
+        "unconnected-(J12-NC-Pad46)",
+        "unconnected-(J12-NC-Pad48)",
+        "unconnected-(J12-NC-Pad56)",
+        "unconnected-(J12-NC-Pad58)",
+        "unconnected-(J12-NC-Pad6)",
+        "unconnected-(J12-NC-Pad67)",
+        "unconnected-(J12-NC-Pad8)",
+        "unconnected-(J12-PERn1-Pad29)",
+        "unconnected-(J12-PERn2-Pad17)",
+        "unconnected-(J12-PERn3-Pad5)",
+        "unconnected-(J12-PERp1-Pad31)",
+        "unconnected-(J12-PERp2-Pad19)",
+        "unconnected-(J12-PERp3-Pad7)",
+        "unconnected-(J12-PETn1-Pad35)",
+        "unconnected-(J12-PETn2-Pad23)",
+        "unconnected-(J12-PETn3-Pad11)",
+        "unconnected-(J12-PETp1-Pad37)",
+        "unconnected-(J12-PETp2-Pad25)",
+        "unconnected-(J12-PETp3-Pad13)",
+        "unconnected-(J12-SUSCLK-Pad68)",
+        "unconnected-(J12-~{PEWAKE}-Pad54)",
+        "unconnected-(J14-Pin_10-Pad10)",
+        "unconnected-(J14-Pin_9-Pad9)",
+        "unconnected-(J15-Pin_11-Pad11)",
+        "unconnected-(J15-Pin_12-Pad12)",
+        "unconnected-(J15-Pin_14-Pad14)",
+        "unconnected-(J15-Pin_15-Pad15)",
+        "unconnected-(J15-Pin_17-Pad17)",
+        "unconnected-(J15-Pin_18-Pad18)",
+        "unconnected-(J16-Pin_17-Pad17)",
+        "unconnected-(J16-Pin_18-Pad18)",
+        "unconnected-(J22-UTILITY{slash}HEAC+-Pad14)",
+        "unconnected-(J4-Pin_11-Pad11)",
+        "unconnected-(J4-Pin_12-Pad12)",
+        "unconnected-(J4-Pin_14-Pad14)",
+        "unconnected-(J4-Pin_15-Pad15)",
+        "unconnected-(J4-Pin_18-Pad18)",
+        "unconnected-(J5-Pin_18-Pad18)",
+        "unconnected-(Module1A-Ethernet_nLED1(3.3v)-Pad19)",
+        "unconnected-(Module1A-SD_DAT4-Pad68)",
+        "unconnected-(Module1A-SD_DAT5-Pad64)",
+        "unconnected-(Module1A-SD_DAT6-Pad72)",
+        "unconnected-(Module1A-SD_DAT7-Pad70)",
+        "unconnected-(Module1A-SD_VDD_Override-Pad73)",
+        "unconnected-(Module1B-Reserved-Pad104)",
+        "unconnected-(Module1B-Reserved-Pad106)",
+        "unconnected-(U11-CLK-Pad7)",
+        "unconnected-(U11-nALERT-Pad8)",
+        "unconnected-(U18-nFLG-Pad3)",
+        "unconnected-(U6-CRFILT-Pad14)",
+        "unconnected-(U6-PLLFILT-Pad34)",
+        "unconnected-(U6-PRTPWR2{slash}BC_EN2-Pad16)",
+        "unconnected-(U6-PRTPWR3{slash}BC_EN3-Pad18)",
+        "unconnected-(U6-PRTPWR4{slash}BC_EN4-Pad20)",
+        "unconnected-(U6-TEST-Pad11)",
+        "unconnected-(U8-CLKO-Pad7)"
+      ],
+      "diffPairWidthMm": 0.15,
+      "diffPairGapMm": 0.25
+    },
+    {
+      "name": "100R",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.2,
+      "viaDiameterMm": 0.45,
+      "viaDrillMm": 0.25,
+      "netNames": [],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.18
+    },
+    {
+      "name": "100R_HighSpeed",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.2,
+      "viaDiameterMm": 0.45,
+      "viaDrillMm": 0.25,
+      "netNames": [
+        "/CM4_Core_IO_Storage/TRD1_N",
+        "/CM4_Core_IO_Storage/TRD1_P",
+        "/CM4_Core_IO_Storage/TRD2_N",
+        "/CM4_Core_IO_Storage/TRD2_P",
+        "/CM4_Core_IO_Storage/TRD3_N",
+        "/CM4_Core_IO_Storage/TRD3_P",
+        "/CM4_HighSpeed_Video/CAM0_C_N",
+        "/CM4_HighSpeed_Video/CAM0_C_P",
+        "/CM4_HighSpeed_Video/CAM0_D0_N",
+        "/CM4_HighSpeed_Video/CAM0_D0_P",
+        "/CM4_HighSpeed_Video/CAM0_D1_N",
+        "/CM4_HighSpeed_Video/CAM0_D1_P",
+        "/CM4_HighSpeed_Video/CAM1_C_N",
+        "/CM4_HighSpeed_Video/CAM1_C_P",
+        "/CM4_HighSpeed_Video/CAM1_D0_N",
+        "/CM4_HighSpeed_Video/CAM1_D0_P",
+        "/CM4_HighSpeed_Video/CAM1_D1_N",
+        "/CM4_HighSpeed_Video/CAM1_D1_P",
+        "/CM4_HighSpeed_Video/CAM1_D2_N",
+        "/CM4_HighSpeed_Video/CAM1_D2_P",
+        "/CM4_HighSpeed_Video/CAM1_D3_N",
+        "/CM4_HighSpeed_Video/CAM1_D3_P",
+        "/CM4_HighSpeed_Video/DSI0_C_N",
+        "/CM4_HighSpeed_Video/DSI0_C_P",
+        "/CM4_HighSpeed_Video/DSI0_D0_N",
+        "/CM4_HighSpeed_Video/DSI0_D0_P",
+        "/CM4_HighSpeed_Video/DSI0_D1_N",
+        "/CM4_HighSpeed_Video/DSI0_D1_P",
+        "/CM4_HighSpeed_Video/DSI1_C_N",
+        "/CM4_HighSpeed_Video/DSI1_C_P",
+        "/CM4_HighSpeed_Video/DSI1_D0_N",
+        "/CM4_HighSpeed_Video/DSI1_D0_P",
+        "/CM4_HighSpeed_Video/DSI1_D1_N",
+        "/CM4_HighSpeed_Video/DSI1_D1_P",
+        "/CM4_HighSpeed_Video/DSI1_D2_N",
+        "/CM4_HighSpeed_Video/DSI1_D2_P",
+        "/CM4_HighSpeed_Video/HDMI0_CK_N",
+        "/CM4_HighSpeed_Video/HDMI0_CK_P",
+        "/CM4_HighSpeed_Video/HDMI0_D0_N",
+        "/CM4_HighSpeed_Video/HDMI0_D0_P",
+        "/CM4_HighSpeed_Video/HDMI0_D1_N",
+        "/CM4_HighSpeed_Video/HDMI0_D1_P",
+        "/CM4_HighSpeed_Video/HDMI0_D2_N",
+        "/CM4_HighSpeed_Video/HDMI0_D2_P",
+        "/CM4_HighSpeed_Video/HDMI1_CK_N",
+        "/CM4_HighSpeed_Video/HDMI1_CK_P",
+        "/CM4_HighSpeed_Video/HDMI1_D0_N",
+        "/CM4_HighSpeed_Video/HDMI1_D0_P",
+        "/CM4_HighSpeed_Video/HDMI1_D1_N",
+        "/CM4_HighSpeed_Video/HDMI1_D1_P",
+        "/CM4_HighSpeed_Video/HDMI1_D2_N",
+        "/CM4_HighSpeed_Video/HDMI1_D2_P",
+        "Net-(J12-PERn0{slash}SATA-B+)",
+        "Net-(J12-PERp0{slash}SATA-B-)",
+        "PCIE_CLK_N",
+        "PCIE_CLK_P"
+      ],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.18
+    },
+    {
+      "name": "50R",
+      "description": "",
+      "clearanceMm": 0.15,
+      "traceWidthMm": 0.35,
+      "viaDiameterMm": 0.45,
+      "viaDrillMm": 0.25,
+      "netNames": [],
+      "diffPairWidthMm": 0.35,
+      "diffPairGapMm": 0.25
+    },
+    {
+      "name": "90R",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.3,
+      "viaDiameterMm": 0.45,
+      "viaDrillMm": 0.25,
+      "netNames": [],
+      "diffPairWidthMm": 0.3,
+      "diffPairGapMm": 0.18
+    },
+    {
+      "name": "90R_USB",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.3,
+      "viaDiameterMm": 0.45,
+      "viaDrillMm": 0.25,
+      "netNames": [
+        "/USB_Hub_Subsystem/HD1_N",
+        "/USB_Hub_Subsystem/HD1_P",
+        "/USB_Hub_Subsystem/HD2_N",
+        "/USB_Hub_Subsystem/HD2_P",
+        "/USB_Hub_Subsystem/HD3_N",
+        "/USB_Hub_Subsystem/HD3_P",
+        "/USB_Hub_Subsystem/HD4_N",
+        "/USB_Hub_Subsystem/HD4_P",
+        "/USB_Hub_Subsystem/USBD_N",
+        "/USB_Hub_Subsystem/USBD_P",
+        "/USB_Hub_Subsystem/USBH_N",
+        "/USB_Hub_Subsystem/USBH_P",
+        "USB2_N",
+        "USB2_P"
+      ],
+      "diffPairWidthMm": 0.3,
+      "diffPairGapMm": 0.18
+    },
+    {
+      "name": "HDMI",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.2,
+      "viaDiameterMm": 0.45,
+      "viaDrillMm": 0.25,
+      "netNames": [],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.18
+    },
+    {
+      "name": "POE TAPS",
+      "description": "",
+      "clearanceMm": 1.0,
+      "traceWidthMm": 0.15,
+      "viaDiameterMm": 0.45,
+      "viaDrillMm": 0.25,
+      "netNames": [
+        "/CM4_Core_IO_Storage/TR0_TAP",
+        "/CM4_Core_IO_Storage/TR1_TAP",
+        "/CM4_Core_IO_Storage/TR2_TAP",
+        "/CM4_Core_IO_Storage/TR3_TAP"
+      ],
+      "diffPairWidthMm": 0.15,
+      "diffPairGapMm": 0.25
+    },
+    {
+      "name": "Power_HighCurrent",
+      "description": "",
+      "clearanceMm": 0.25,
+      "traceWidthMm": 0.8,
+      "viaDiameterMm": 0.6,
+      "viaDrillMm": 0.3,
+      "netNames": [
+        "/CM4_Core_IO_Storage/+1.8v",
+        "/CM4_Core_IO_Storage/SD_PWR",
+        "/CM4_HighSpeed_Video/HDMI_5v",
+        "/USB_Hub_Subsystem/VBUS",
+        "GLOBAL_EN",
+        "Net-(J11-VBUS)"
+      ],
+      "diffPairWidthMm": 0.8,
+      "diffPairGapMm": 0.25
+    },
+    {
+      "name": "Power_HighCurrent_W0.60",
+      "description": "",
+      "clearanceMm": 0.25,
+      "traceWidthMm": 0.6,
+      "viaDiameterMm": 0.6,
+      "viaDrillMm": 0.3,
+      "netNames": [
+        "+12v",
+        "+5v"
+      ],
+      "diffPairWidthMm": 0.8,
+      "diffPairGapMm": 0.25
+    },
+    {
+      "name": "Power_HighCurrent_W0.40",
+      "description": "",
+      "clearanceMm": 0.25,
+      "traceWidthMm": 0.4,
+      "viaDiameterMm": 0.6,
+      "viaDrillMm": 0.3,
+      "netNames": [
+        "+3.3v"
+      ],
+      "diffPairWidthMm": 0.8,
+      "diffPairGapMm": 0.25
+    },
+    {
+      "name": "100R_HighSpeed_W0.20",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.197,
+      "viaDiameterMm": 0.45,
+      "viaDrillMm": 0.25,
+      "netNames": [
+        "PCIE_TX_P",
+        "PCIE_TX_N",
+        "PCIE_RX_P",
+        "PCIE_RX_N"
+      ],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.18
+    },
+    {
+      "name": "100R_HighSpeed_W0.14",
+      "description": "",
+      "clearanceMm": 0.2,
+      "traceWidthMm": 0.144,
+      "viaDiameterMm": 0.45,
+      "viaDrillMm": 0.25,
+      "netNames": [
+        "/CM4_HighSpeed_Video/DSI1_D3_P",
+        "/CM4_HighSpeed_Video/DSI1_D3_N",
+        "/CM4_Core_IO_Storage/TRD0_P",
+        "/CM4_Core_IO_Storage/TRD0_N"
+      ],
+      "diffPairWidthMm": 0.2,
+      "diffPairGapMm": 0.18
+    }
+  ],
+  "routeMetadata": {
+    "tracks": [
+      {
+        "id": "e3237e60-239e-4410-99b3-47f1027b0eee",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "fe839feb-1e7a-4a3a-8866-5ecbb92e2a33",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "4ad91ae6-6bb2-4669-a6e9-46aeab900b78",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "a6be1957-c64b-45f3-b01d-fada69c474ed",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "e5b51f4a-7c6b-4a63-a254-aa9cfd413a3b",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "daf9e1f5-5d00-435d-ad61-88a8ca64929d",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "13cc9551-75a5-4209-8346-c11b3be069e6",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "ac97b4ce-2b74-4d24-840f-442e3b931e1a",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "c889e654-ec10-4877-ac5f-01e8626bd395",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "0277af19-eb5a-4c46-8669-9e66be04add0",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "b5cf994c-09d4-4060-be2e-6b4b29d74fc9",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "090253b0-a0c9-4b77-ac34-7d97f6a8bbd2",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "42b2f087-c914-436d-b958-ab14478ea0fc",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "f1609b0c-2546-477c-aac0-76456cd67d3c",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "17b9d62c-3d74-457c-8d9e-b5aaf17711c2",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "route_board_walk_fc39ca09-3ad7-49a5-91fd-fcc73c9d6ee5"
+      },
+      {
+        "id": "protoroute_track_1494d3db-b048-4f39-be82-e3b7e9c02e3b",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "ba11bf35-1fc6-4d93-967b-9ef9566f2763"
+      },
+      {
+        "id": "protoroute_track_f2f9e176-bdd0-4952-9b45-659659504e34",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "ba11bf35-1fc6-4d93-967b-9ef9566f2763"
+      },
+      {
+        "id": "protoroute_track_04390798-f312-4448-853d-a233d2909f94",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "ba11bf35-1fc6-4d93-967b-9ef9566f2763"
+      },
+      {
+        "id": "protoroute_track_cb47b468-fba9-476d-b239-34fd30bac3fd",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "ba11bf35-1fc6-4d93-967b-9ef9566f2763"
+      },
+      {
+        "id": "protoroute_track_b7799f1a-f81c-4f0e-bbdc-b08644fc8a87",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "ba11bf35-1fc6-4d93-967b-9ef9566f2763"
+      },
+      {
+        "id": "protoroute_track_ddc31b9c-4c7d-4627-9441-989605d1ebea",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "ba11bf35-1fc6-4d93-967b-9ef9566f2763"
+      },
+      {
+        "id": "protoroute_track_914ee029-e59c-4b41-a0e4-60078e0b9725",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "ba11bf35-1fc6-4d93-967b-9ef9566f2763"
+      },
+      {
+        "id": "protoroute_track_c474ea75-e2d0-4569-869b-a7a799e8b5eb",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "ba11bf35-1fc6-4d93-967b-9ef9566f2763"
+      },
+      {
+        "id": "protoroute_track_67fc7341-8051-404b-a567-41646d5a9e43",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "ba11bf35-1fc6-4d93-967b-9ef9566f2763"
+      },
+      {
+        "id": "protoroute_track_d6ac517c-bff2-415d-aeda-06f91d3cb3d7",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "ba11bf35-1fc6-4d93-967b-9ef9566f2763"
+      },
+      {
+        "id": "protoroute_track_e4e96f71-b236-48b9-95a5-e238e075200b",
+        "ownership": "autorouter",
+        "locked": false,
+        "jobId": "ba11bf35-1fc6-4d93-967b-9ef9566f2763"
+      }
+    ]
+  },
+  "deferredRawBlocks": [
+    "(covering\n\t\t\t(front no)\n\t\t\t(back no)\n\t\t)",
+    "(plugging\n\t\t\t(front no)\n\t\t\t(back no)\n\t\t)",
+    "(capping no)",
+    "(filling no)",
+    "(zone_defaults)"
+  ],
+  "pageSetup": {
+    "paperSize": "Infinite",
+    "paperPortrait": false
+  }
+}

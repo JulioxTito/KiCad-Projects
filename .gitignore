@@ -1,0 +1,19 @@
+# KiCad temporary & backup files
+*.bak
+*.kicad_prl
+*-save.kicad_pcb
+*-save.kicad_sch
+_autosave-*
+*.lck
+*.tmp
+
+# Freerouting temporary files
+*.dsn
+*.ses
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+.history/
+.protoflow/
