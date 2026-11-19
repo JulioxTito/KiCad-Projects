@@ -1,6 +1,18 @@
 # LM555 Precision Timer Testboard
 
-![LM555 Testboard 3D Render](images/LM555_Timer_3D_Render.png)
+<p align="center">
+  <img src="images/lm555_3d_render.png" alt="LM555 Testboard 3D Model" width="48%">
+  <img src="images/lm555_pcb_layout.png" alt="LM555 KiCad PCB Layout" width="48%">
+</p>
+<p align="center">
+  <em>Figure 1: (Left) Raytraced 3D model with balanced camera perspective and floor reflections. (Right) KiCad PCB Editor layout showing traces, pads, and component silkscreen.</em>
+</p>
+
+<p align="center">
+  <img src="images/lm555_3d_top.png" alt="LM555 Top View" width="55%">
+  <br>
+  <em>Figure 2: Orthogonal Top 3D view showing DIP-8 socket, timing passives, output buffer LED, and oscilloscope test points.</em>
+</p>
 
 ## 📌 Project Summary
 A precision analog timing and waveform generation testboard built around the industry-standard **LM555 / NE555** bipolar timer IC. Designed as an educational and hardware validation platform, it allows hands-on characterization of astable multivibrators, frequency tuning, pulse-width modulation (PWM), and transient response.
@@ -24,6 +36,7 @@ A precision analog timing and waveform generation testboard built around the ind
 
 ## 📁 Project Directory Contents
 * [`hardware/`](hardware/): KiCad project files (`LM555_Testboard.kicad_pro`), schematics, PCB layout, and bill of materials (`LM555_Testboard.csv`).
-* [`images/LM555_Timer_3D_Render.png`](images/LM555_Timer_3D_Render.png): 3D render of the assembled testboard.
-* [`images/LM555_Timer_PCB_Layout.pdf`](images/LM555_Timer_PCB_Layout.pdf): 2D PCB layout artwork.
+* [`images/lm555_3d_render.png`](images/lm555_3d_render.png): High-resolution raytraced 3D render.
+* [`images/lm555_pcb_layout.png`](images/lm555_pcb_layout.png): KiCad PCB Editor layout artwork.
+* [`images/lm555_3d_top.png`](images/lm555_3d_top.png): Top orthogonal 3D view.
 * [`images/LM555_Timer_Schematic.pdf`](images/LM555_Timer_Schematic.pdf): Complete schematic diagram.
